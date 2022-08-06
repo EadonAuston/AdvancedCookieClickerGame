@@ -1,0 +1,208 @@
+html{
+background-image: url("background.png") ;
+color:white;
+user-select: none;
+}
+
+h1{
+    text-align:center;
+    font-size: 8vw;
+    margin:none;
+    position:relative;
+    top: -8vh;
+}
+h2:hover{
+cursor: pointer;
+color:gold;
+
+}
+h2{
+    text-align: center;
+}
+.sidebar{
+    width: 30vw;
+    height: 70vh;
+    border: 1px solid gold;
+    position:absolute;
+    right: 1vw;
+}
+h3{
+    text-align: center;
+}
+tr{
+    text-align:center;
+}
+.center{
+    text-align:center;
+}
+
+.upgrade:hover{
+    color:gold;
+    font-size:larger;
+    cursor: pointer;
+}
+.upgrade:active{
+    font-size:medium;
+}
+.upgrade{
+    text-align:right;
+}
+img:hover{
+    width: 31%;
+    margin-bottom: -1%;
+    cursor: pointer;
+}
+img:active{
+    width: 30%;
+   margin-bottom: 0%;
+}
+.cookie-container{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.cookie{
+width: 30%;
+border: .2vw solid gold;
+border-radius: 50%;
+margin-top: 5vh;
+}
+.score-container{
+position:relative;
+
+left: 25%;
+width: 50vw;
+height: 15vh;
+margin: 5vw;
+margin-bottom: none;
+border: 1px solid gold;
+text-align:center;
+justify-content: center;
+align-items: center;
+
+}
+span{
+    font-size: 3vw;
+}
+.body{
+    position:relative;
+    right: 20vw;
+    
+}
+hr{
+    background-color:gold;
+    height: 2px;
+
+
+}
+.upgrades{
+display:block;
+
+}
+.prestige{
+display:none;
+
+}
+.info{
+display:none;
+
+}
+.infoPage{
+text-align:center;
+
+}
+.achievements{
+display:none;
+
+}
+#selectionBox{
+margin: 10px;
+
+
+
+}
+#selectionBox:hover{
+    color: gold;
+}
+.achievementBox{
+width: 3vw;
+height: 3vw;
+border: 1px solid gold;
+margin: .5vw;
+position:relative;
+flex-direction:none;
+float:left;
+
+}
+.achievementBoxBorder{
+width: 17vw;
+height: 17vw;
+border: 1px solid gold;
+position:relative;
+ left: 35%;
+text-align:center;
+align-items:center;
+}
+.achievementBox:hover{
+   cursor:pointer;
+ 
+   box-shadow: 7px 7px 5px 0px gold;
+  
+   
+}
+.achievementBox:active{
+    color:gold;
+}
+.prestigeButton{
+    width: 20%;
+    height: 10%;
+    border: 2px solid gold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: goldenrod;
+}
+.prestigePopUp{
+    position:absolute;
+    top: 25%;
+    left: 25%;
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid red;
+    display:none;
+    z-index: 40;
+    text-align: center;
+    
+
+}
+.prestigePopUpClose{
+    position:absolute;
+    width: 5%;
+    height: 5%;
+    border: 1px solid gold;
+    display: none;
+    text-align: center;
+    font-size: larger;
+}
+.prestigePopUpClose:hover{
+    
+    color:red;
+}
+.darken{
+    position:absolute;
+    top: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 90%;
+    
+    display:none;
+    z-index: 39;
+}
+.shift{
+    margin-left: 20vw;
+}
